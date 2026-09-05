@@ -1,0 +1,156 @@
+/* =========================================================
+   IPO TRACKER PRO
+   Application-specific styles
+========================================================= */
+
+.app {
+  min-height: 100vh;
+}
+
+/* Header branding */
+
+.brand {
+  display: flex;
+  flex-direction: column;
+}
+
+.brand-row {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+/* Buttons with icons */
+
+.btn-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}
+
+/* Money values */
+
+.money {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Positive / negative */
+
+.positive {
+  color: var(--red) !important;
+}
+
+.negative {
+  color: #888 !important;
+}
+
+/* Date */
+
+.date {
+  color: #aaa;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Table action buttons */
+
+.table-actions {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.table-action {
+  width: 29px;
+  height: 29px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #111;
+
+  border: 1px solid #292929;
+  border-radius: 4px;
+
+  color: #777;
+
+  transition: all 0.2s ease;
+}
+
+.table-action:hover {
+  color: white;
+  border-color: #444;
+}
+
+.table-action.delete:hover {
+  color: var(--red);
+  border-color: var(--red);
+}
+
+/* Divider */
+
+.divider {
+  width: 100%;
+  height: 1px;
+
+  background: var(--border);
+
+  margin: 20px 0;
+}
+
+/* Form hint */
+
+.form-hint {
+  color: #555;
+
+  font-size: 10px;
+
+  margin-top: 3px;
+}
+
+/* Required */
+
+.required {
+  color: var(--red);
+}
+
+/* Card top accent */
+
+.red-accent {
+  position: relative;
+}
+
+.red-accent::before {
+  content: '';
+
+  position: absolute;
+
+  left: 0;
+  top: 0;
+
+  width: 100%;
+  height: 2px;
+
+  background: var(--red);
+}
+
+/* Hide on mobile */
+
+.desktop-only {
+  display: block;
+}
+
+.mobile-only {
+  display: none;
+}
+
+@media (max-width: 650px) {
+  .desktop-only {
+    display: none;
+  }
+
+  .mobile-only {
+    display: block;
+  }
+}
