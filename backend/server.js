@@ -54,6 +54,25 @@ connectDB();
 
 const app = express();
 
+// ---------------------------------------------------------------------------------------------------
+// Add this before your other routes
+app.get('/', (req, res) => {
+  res.json({
+    message: 'IPO Tracker API',
+    status: 'running',
+    endpoints: {
+      health: '/api/health',
+      auth: '/api/auth',
+      ipos: '/api/ipos'
+    }
+  });
+});
+
+
+
+// ------------------------------------------------------------------
+
+
 // CORS configuration - Allow all for development
 app.use(cors({
   origin: ['http://localhost:5173', 'http://localhost:3000', 'http://127.0.0.1:5173', '*'],
