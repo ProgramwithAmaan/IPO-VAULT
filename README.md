@@ -2,8 +2,8 @@
 A full-stack MERN application for managing IPO investments, tracking profit/loss, analyzing investment performance, and generating downloadable reports. The application provides secure authentication, complete IPO management, automatic financial calculations, interactive analytics, advanced filtering, multiple themes, and responsive web/mobile support.
 
 # 🚀 Live Demo
-🌐 Frontend: https://ipo-tracker-frontend.onrender.com
-⚙️ Backend API: https://ipo-tracker-api-pj4b.onrender.com
+🌐 Frontend: https://ipo-tracker-frontend.onrender.com || 
+⚙️ Backend API: https://ipo-tracker-api-pj4b.onrender.com || 
 ❤️ API Health: https://ipo-tracker-api-pj4b.onrender.com/api/health
 
 # ✨ Features
@@ -91,14 +91,10 @@ IPO-VAULT/
 ├── README.md
 
 # 🧮 Investment Calculations
-1. Total Investment
-   Total Investment = Number of Shares × Issue Price
-2. Profit / Loss
-   Profit/Loss = (Current Price − Issue Price) × Number of Shares
-3. Profit Percentage
-   Profit % = (Profit / Total Investment) × 100
-4. Half Profit
-   Half Profit = Profit / 2
+1. Total Investment = Number of Shares × Issue Price
+2. Profit/Loss = (Current Price − Issue Price) × Number of Shares
+3. Profit % = (Profit / Total Investment) × 100
+4. Half Profit = Profit / 2
 
 # 🔐 Authentication & Security
 The application uses:
@@ -111,10 +107,6 @@ User-specific IPO records
 .gitignore protection for .env
 
 Never upload your real MongoDB URI or JWT secret to GitHub.
-
-# ⚙️ Installation
-1. Clone the repository
-   <img width="495" height="83" alt="Screenshot 2026-09-06 at 9 51 25 PM" src="https://github.com/user-attachments/assets/15227708-961a-45a8-9d9b-4b9f5aaaeba0" />
 
 # 📊 Application Workflow
 User
