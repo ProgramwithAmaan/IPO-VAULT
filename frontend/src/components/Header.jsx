@@ -25,7 +25,7 @@ const Header = ({ onAddClick, onExportExcel, onExportPDF }) => {
             <div className="brand-dot" />
             <div>
               <div className="brand-name">
-                IPO <span>TRACKER</span>
+                IPO <span>VAULT</span>
                 <span className="text-[10px] font-normal ml-2 px-2 py-0.5 rounded-full" style={{ 
                   background: 'var(--theme-card)',
                   color: 'var(--theme-textSecondary)',
