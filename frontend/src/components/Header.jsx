@@ -25,7 +25,7 @@ const Header = ({ onAddClick, onExportExcel, onExportPDF }) => {
             {/* <div className="brand-dot" /> */}
               
       
-            <i class="fa-solid fa-arrow-trend-up" style="color: rgb(236, 42, 42);"></i>
+            <i className="fa-solid fa-arrow-trend-up" style={{ fontSize: "20px" }} ></i>
 
             
             <div>
