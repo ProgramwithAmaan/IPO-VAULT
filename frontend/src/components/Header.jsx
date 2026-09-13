@@ -22,7 +22,12 @@ const Header = ({ onAddClick, onExportExcel, onExportPDF }) => {
       <header className="app-header">
         <div className="header-inner">
           <div className="brand">
-            <div className="brand-dot" />
+            {/* <div className="brand-dot" /> */}
+              
+      
+            <i class="fa-solid fa-arrow-trend-up" style="color: rgb(236, 42, 42);"></i>
+
+            
             <div>
               <div className="brand-name">
                 IPO <span>VAULT</span>
