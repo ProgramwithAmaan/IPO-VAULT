@@ -25,7 +25,7 @@ const Header = ({ onAddClick, onExportExcel, onExportPDF }) => {
             {/* <div className="brand-dot" /> */}
               
       
-            <i class="bi bi-graph-up-arrow" style="color: red;"></i>
+            <i className="bi bi-graph-up-arrow" style={{ color: "red" }}></i>
 
             
             <div>
